@@ -41,6 +41,7 @@
         original.call(ctx, param);
         if (done) done();
       });
+      return this;
     };
   }
 
